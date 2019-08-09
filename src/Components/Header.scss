@@ -1,0 +1,33 @@
+.navbar-toggler{
+    background: #fff;
+}
+.active {
+    background-color: gold;
+    color:Black ;
+    font-weight:bold;
+ }
+ .navbar-toggler.collapsed{
+    color: #fff;
+    background: #fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+ }
+ @media (max-width: 980px){
+nav.fixed-top .navbar-collapse.collapsed .nav-item {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-toggler.collapsed{
+    color: #212529
+}
+.collapsed{
+    transition-timing-function: linear;
+}
+ }
+ @media (max-width: 767px){
+    body nav.navbar .nav-item {
+    padding: 8px 10px !important;
+}
+ }

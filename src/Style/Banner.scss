@@ -1,0 +1,15 @@
+.banner {
+    background: #1c1d25;
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    .banner-area{
+        height: 65vh;
+    }
+}
